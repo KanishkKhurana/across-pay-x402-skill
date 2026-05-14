@@ -2,7 +2,19 @@
 
 Crosschain x402 micropayments with autodetected source-chain funding via Across Protocol.
 
-This folder is a **skill**: a curated documentation bundle designed to be consumed by AI coding agents (Claude Code, Cursor, IDE plugins, etc.) so that any agent can integrate the `across-pay-x402` npm package into a buyer application without the human walking it through every detail.
+This repository is a Claude Code **skill**: a curated documentation bundle designed to be consumed by AI coding agents (Claude Code, Cursor, IDE plugins, etc.) so that any agent can integrate the `across-pay-x402` npm package into a buyer application without the human walking it through every detail.
+
+## Install
+
+Clone directly into your Claude Code skills directory:
+
+```bash
+git clone https://github.com/<your-org>/across-pay-x402-skill ~/.claude/skills/across-pay-x402
+```
+
+Restart Claude Code (or open a new session) and invoke with `/across-pay-x402`.
+
+> Replace `<your-org>` with the actual GitHub org/user that owns this repo before publishing.
 
 ## Audience
 
